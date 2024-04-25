@@ -14,7 +14,7 @@ Dataset Split: The dataset is split to create a test set in a 0.2 ratio.
 ## Model
 Build model using TensorFlow framework.  
 The dimension of the input features: input_size1=dimension(dimension=(60,1)),
-input_size2=dimension(dimension=13)  
+input_size2=dimension(dimension=9)  
 Batch_size:32  
 Epoch:3000  
 Optimize functions: Adam  
