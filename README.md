@@ -20,4 +20,3 @@ Epoch:3000
 Optimize functions: Adam  
 learning rate:0.0001  
 Loss function:MAE  
-## Some Results
