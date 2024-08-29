@@ -1,5 +1,14 @@
-# A novel deep learning-based method for generating floor response spectra of building structures
-
+# A novel deep learning-based method for generating floor response spectra of building structures  
+## This repository for FRSNet
+The FRSNet can predict the FRS efficiently without requiring numerical simulation and model analysis.
+This repository contains the following content:
+1. The trained models are provided in 'trained model' folder.
+2. Loss curves of the final model is provided in loss.xlsx.
+3. Model architecture and its code is provided in FRSNet.png and FRSNet.ipynb.
+4. The code of the compared models(DNN,CNN,LSTM).
+5. The predict results of different models are provided in 'DMresults'folder.
+6. The code of excitation interpolation method.
+7. The predict results of different number of neurons in the feature extraction part.
 ## Requirements
 tensorflow 2.10.0  
 python 3.9.13  
@@ -7,16 +16,3 @@ numpy 1.23.5
 pandas 2.0.3  
 matplotlib 3.7.2  
 sklearn 1.0.2  
-## Dataset
-All data are downloaded from https://www.strongmotioncenter.org/  
-In this study, data from CESMD consisting of 102 structures, including 48 concrete structures, 44 steel structures, and 10 masonry structures, was collected.
-The FRS collected from all structural sensors was calculated using the excitation interpolation method with damping ratios of 0, 0.02, 0.05, 0.1, and 0.2, resulting in a total of 16570 pieces of data. 80% will be used as the training set and 20% will be used as the test set.
-## Model
-Build model using TensorFlow framework.  
-The dimension of the input features: input_size1=dimension(dimension=(60,1)),
-input_size2=dimension(dimension=9)  
-Batch_size:32  
-Epoch:3000  
-Optimize functions: Adam  
-learning rate:0.0001  
-Loss function:MAE  
