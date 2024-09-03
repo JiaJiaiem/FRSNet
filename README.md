@@ -3,7 +3,7 @@
 The FRSNet can predict the FRS efficiently without requiring numerical simulation and model analysis.
 This repository contains the following content:
 1. The dataset are provided in 'dataset' folder.
-2. Loss curves of the final model is provided in loss.zip.
+2. Loss of the final model is provided in loss.zip.
 3. Model architecture and its code is provided in FRSNet.png and FRSNet.ipynb.
 4. The code of the compared models(DNN,CNN,LSTM).
 5. The code of excitation interpolation method.
