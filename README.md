@@ -3,12 +3,11 @@
 The FRSNet can predict the FRS efficiently without requiring numerical simulation and model analysis.
 This repository contains the following content:
 1. The trained models are provided in 'trained model' folder.
-2. Loss curves of the final model is provided in loss.xlsx.
+2. Loss curves of the final model is provided in loss.zip.
 3. Model architecture and its code is provided in FRSNet.png and FRSNet.ipynb.
 4. The code of the compared models(DNN,CNN,LSTM).
-5. The predict results of different models are provided in 'DMResults'folder.
-6. The code of excitation interpolation method.
-7. The predict results of different number of neurons in the feature extraction part are provided in 'DNResults' folder.
+5. The code of excitation interpolation method.
+6. The dataset are provided in 'dataset' folder.
 ## Requirements
 tensorflow 2.10.0  
 python 3.9.13  
