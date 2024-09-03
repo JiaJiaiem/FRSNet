@@ -7,6 +7,7 @@ This repository contains the following content:
 3. Model architecture and its code is provided in FRSNet.png and FRSNet.ipynb.
 4. The code of the compared models(DNN,CNN,LSTM).
 5. The code of excitation interpolation method.
+6. The best trained model are provided in B-c-2.h5.
 ## Requirements
 tensorflow 2.10.0  
 python 3.9.13  
