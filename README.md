@@ -15,3 +15,5 @@ numpy 1.23.5
 pandas 2.0.3  
 matplotlib 3.7.2  
 sklearn 1.0.2  
+## Acknowledgments
+The authors would like to acknowledge the Center for Engineering Strong Motion Data (CESMD) for providing the structural seismic response data.
