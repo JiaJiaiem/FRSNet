@@ -2,7 +2,7 @@
 ## This repository for FRSNet
 The FRSNet can predict the FRS efficiently without requiring numerical simulation and model analysis.
 This repository contains the following content:
-1. The dataset are provided in 'dataset' folder.
+1. The dataset are provided in 'dataset' folder. The dataset is in .csv format, with the first nine parameters representing the total number of stories, lateral length, longitudinal length, total height, story height, z/h, number of basement stories, damping ratio, and direction. This is followed by the ground spectrum and floor acceleration spectrum, velocity spectrum, and displacement spectrum.
 2. Loss of the final model is provided in loss.zip.
 3. Model architecture and its code is provided in FRSNet.png and FRSNet.ipynb.
 4. The code of the compared models(DNN,CNN,LSTM).
