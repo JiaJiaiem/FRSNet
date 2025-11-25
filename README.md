@@ -1,4 +1,4 @@
-# A novel deep learning-based method for generating floor response spectra of building structures
+# Prediction models of floor response spectra
 
 ## Requirements
 tensorflow 2.10.0  
