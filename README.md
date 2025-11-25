@@ -1,4 +1,4 @@
-# A novel deep learning-based method for generating floor response spectra of building structures  
+# Prediction models of floor response spectra 
 ## This repository for FRSNet
 The FRSNet can predict the FRS efficiently without requiring numerical simulation and model analysis.
 This repository contains the following content:
